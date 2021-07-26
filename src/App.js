@@ -34,10 +34,8 @@ function App() {
   return (
     <div className="pageWrapper">
       <h1 className="pageTitle">{!title && "Click an animal for a fun fact"}</h1>
-      {/* {showBackground && background} */}
-      <p id='fact'></p>
       <div className='animals'>{images}</div>
-      {/* <input type='button' value="Click me" onClick={displayBG}/> */}
+      <p id='fact'></p>
     </div>
   );
 };
