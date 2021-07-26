@@ -1,14 +1,34 @@
-div {
+body {
+  background-color: black;
+  color: white;
+}
+
+.pageWrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
+.pageWrapper::before {
+  content: "";
+  background-image: url('./images/backgroundImage.png');
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
 .background {
   position: absolute;
-  margin-top: 80px;
-  width: 95%;
-  z-index: 1
+  /* margin-top: 80px; */
+  width: 100%;
+  z-index: 1;
 }
 
 #fact {
@@ -21,13 +41,17 @@ div {
   z-index: 2;
 }
 
+.pageTitle {
+  z-index: 2;
+}
+
 .animals {
   display: flex;
   flex-direction: row;
   position: fixed;
   width: 90%;
   margin-top: 240px;
-  z-index: 2
+  z-index: 2;
 }
 
 .animal {
