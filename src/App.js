@@ -2,9 +2,6 @@ import { animals } from './animals';
 import React from 'react';
 import './App.css';
 
-const showBackground = true;
-const background = <img className="background" alt="ocean" src="/images/backgroundImage.png"/>
-
 const title = ""
 
 const images = [];
@@ -33,7 +30,7 @@ function displayFact(e) {
 function App() {
   return (
     <div className="pageWrapper">
-      <h1 className="pageTitle">{!title && "Click an animal for a fun fact"}</h1>
+      <h1 className="pageTitle">{!title && "Click a sea-creature image to learn about it."}</h1>
       <div className='animals'>{images}</div>
       <p id='fact'></p>
     </div>

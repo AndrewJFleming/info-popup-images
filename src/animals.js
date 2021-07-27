@@ -1,14 +1,14 @@
 export const animals = {
-    dolphin: {
-      image: '/images/dolphin.png',
-      facts: ['Dolphins have been shown to give distinct names to each other!', 'Dolphins are known to display their own culture!', 'Dolphins have two stomachs!']
+    nautilus: {
+      image: '/images/nautilus.png',
+      facts: ['The nautilus uses jet propulsion to swim.', 'Nautiluses are found only in the Indo-Pacific.', 'Nautiluses have not evolved much in the last 500 million years.']
     },
-    lobster: {
-      image: '/images/lobster.png',
-      facts: ['Lobsters taste with their legs!', 'Lobsters chew with their stomachs!', 'Lobsters can live as long as 100 years.']
+    octopus: {
+      image: '/images/octopus.png',
+      facts: ['The octopus has no bones so it can squeeze into tight places.', 'The octopus can escape preditors in a cloud of ink.', 'The octopus uses camouflage to keep undetected by preditors.']
     },
-    starfish: {
-      image: '/images/starfish.png',
-      facts: ['Starfish can have up to 40 arms!', 'Starfish have no brain and no blood!', 'Starfish can regenerate their own arms!']
+    brittlestar: {
+      image: '/images/brittlestar.png',
+      facts: ['Most brittle stars have five arms but there are species with six.', 'Brittle stars can regenerate lost arms', 'Some species of brittle star are bioluminescent']
     }
   };
